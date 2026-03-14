@@ -3,8 +3,9 @@ project:
   output-dir: docs
 
 book:
-  title: "21CSC106T-Foundation of Data Sience"
+  title: "21CSC106T-Foundation of Data Analysis"
   author: "Jubilant J"
+  affiliation: "SRM-Trichy"
   date: "01/05/2026"
   chapters:
     - index.qmd
