@@ -1,0 +1,119 @@
+# Introduction
+
+### Topics Covered
+
+An Introduction to Data Analysis - Data Analysis - Knowledge domains of Data Analyst: Computer Science, Mathematics, and statistics - Machine Learning & AI, Professional fields of Application - Introduction to Data - Understanding the nature of Data - Data – Information; Information – Knowledge - Types of Data - Data Analysis Process - Quantitative Data Analysis - Qualitative Data Analysis - Python – The Programming Language - Python 2 and Python 3 - Python Package Index - IDEs for python - Scipy: Numpy- Pandas, Matplotlib.
+
+
+## An Introduction to Data Analysis
+
+Data analysis starts with identifying a problem that can be solved with data. Once the problem is identified, data is collected, cleaned, processed, and analyzed. The purpose of analyzing the data is to identify trends, patterns, and meaningful insights, with the ultimate goal of solving the original problem.
+
+The following five-step framework helps to analyze the data :
+
+1. Identify business questions
+2. Collect and store data
+3. Clean and prepare data
+4. Analyze data 
+5. Visualize and communicate data.
+
+### Data Analysis Process
+
+Data analysis is schematized as a process chain consisting of the following sequence of stages:
+
+* **Problem definition**: Data analysis always starts with a problem to be solved. Requires focusing the system, planning, and choosing an effective, cross-disciplinary team.
+* **Data extraction**: Obtaining the data to perform the analysis. Data selection is crucial.
+* **Data preparation**: Cleaning, normalizing, and transforming data into an optimized dataset. Handling invalid, ambiguous, or missing values [7].
+* **Data exploration and visualization**: Searching data graphically or statistically to find patterns, connections, and relationships. Includes summarizing, grouping, and identifying trends [7, 8].
+* **Predictive modelling**: Creating a statistical model to predict results (Regression models for numeric data, Classification/Clustering models for descriptive/categorical data) [8, 9].
+* **Model validation/test**: Validating the model built on the basis of starting data (e.g., using Cross Validation techniques) [9, 10].
+* **Deployment**: The final step which aims to present the results. Involves documenting analysis results, decision deployment, risk analysis, and measuring the business impact [10, 11].
+
+
+
+## Knowledge Domains of Data Analyst
+Data Science comprises three main subject areas [12, 13]:
+
+1. **Computer Science and Programming**: The study of computational tools like programming languages and software libraries.
+2. **Statistics and Machine Learning**: Forms the theoretical foundations of data science methods and algorithms.
+3. **Domain Knowledge**: The general discipline or field to which data science is applied (e.g., medicine, finance, biotech). It is required to interpret results properly [12, 13].
+
+
+
+## Machine Learning & AI, Professional Fields of Application
+* **Image Recognition**: Cataloging and detecting objects, face detection, and pattern recognition [14, 15].
+* **Speech Recognition**: Representing speech signals with numbers (e.g., Amazon’s Alexa, Apple’s Siri) [15].
+* **Predict Traffic Patterns**: Analyzing present traffic data to generate predictions and identify the fastest route [15, 16].
+* **E-commerce Product Recommendations**: Tracking customer behavior to recommend products [16].
+* **Self-Driving Cars**: Utilizing unsupervised learning algorithms via cameras and sensors [17].
+* **Catching Email Spam**: Filtering incoming emails using ML algorithms [17, 18].
+* **Catching Malware**: Analyzing suspicious activities in environments like Android [18].
+* **Virtual Personal Assistant**: Accessing relevant information via text or voice using Natural Language Processing [19].
+* **Online Fraud Recognition**: Examining user profiles for unusual patterns [19, 20].
+* **Stock Market and Day Trading**: Automating investment activities using algorithmic trading [20].
+
+
+
+## Quantitative and Qualitative Data Analysis
+* **Quantitative**: Analysed data (Numerical or Categorical), allows mathematical processing, and provides more objective conclusions [21].
+* **Qualitative**: Values expressed through descriptions in Natural Language (text, visual, or audio data), leading to subjective interpretations [21].
+
+### Open Data
+Freely available data sources on the internet supporting the growing demand for data (e.g., DataHub, WHO, Data.gov, EU Open Data Portal, AWS public datasets, Google Trends) [21, 22].
+
+
+
+## Understanding the Nature of Data
+* **Data (Raw)**: Raw alphanumeric values obtained through different acquisition methods [23].
+* **Information (Processed)**: Created when data is processed, organized, or structured to provide context and meaning [23].
+* **Knowledge (Actionable)**: Unique to each individual; it is the accumulation of past experience and insight that shapes how we interpret information to make decisions [23].
+
+### Types of Data
+1. **Categorical or Qualitative Data** [24]
+   * **Nominal Data**: Represents discrete units, cannot be ordered or measured (e.g., Gender, Nationality, Hair color). Uses one-hot encoding [24, 25].
+   * **Ordinal Data**: Indicates an ordered or graded relationship (e.g., Ranks, Opinion scales, Socioeconomic status) [25, 26].
+2. **Numerical or Quantitative Data** [24]
+   * **Discrete Data**: Can take only finite discrete values, counted in whole numbers (e.g., Number of students) [26, 27].
+   * **Continuous Data**: Data that can be calculated with an infinite number of probable values (e.g., Temperature range) [27].
+
+
+
+## Python and Data Analysis
+Python is widely used in scientific circles because of its large number of libraries for analysis and data manipulation [27].
+* **Python Package Index (PyPI)**: A repository of software for the Python programming language helping you find and install packages (using `pip`) [28, 29].
+* **Characteristics**: Interpreted, Portable, Object-oriented, Interactive, Interfaced, Open source [30].
+
+### Interpreters vs Compilers
+* **Compiler**: Takes entire program as input, generates intermediate object code, executes faster, requires more memory. (e.g., C compiler) [31, 32].
+* **Interpreter**: Takes single instruction as input, generates no object code, is slower in execution, and uses less memory. Errors are displayed line by line. (e.g., Python) [31, 32].
+
+### Python Implementations
+* **Cython**: Translates Python code into C [32].
+* **Jython**: An implementation of Python built and compiled in Java [33].
+* **IronPython**: Developed in C# (for Windows) [32].
+* **PyPy**: A JIT (just-in-time) compiler that converts Python directly to machine code at runtime [33].
+
+
+
+## Python Basics
+* **Comments**: Used to mark non-executable code. Single-line (`#`) and Multi-line Docstrings (`'''` or `"""`) [34, 35].
+* **Identifiers**: Names used for variables, functions, or classes. Case-sensitive. Cannot start with a digit or be a keyword. Allowed special symbol is underscore `_` [36-38].
+* **Keywords**: Reserved words with special meaning (e.g., `False`, `class`, `finally`, `is`, `return`). Python 3.5 has 33 keywords [39].
+* **Variables**: Reserved memory locations. No explicit declaration needed; created upon assignment using the `=` operator [40, 41].
+  * *Chained Assignment*: `a = b = c = 10` [42]
+  * *Multiple Assignment*: `value1, value2 = 1, 2.5` [43]
+* **Expressions**: A combination of values, variables, and operators [44].
+* **Augmented Assignment**: Shorthand operators like `+=`, `-=`, `*=`, `/=`, `%=` (e.g., `a += b` is equivalent to `a = a + b`) [45, 46].
+
+
+
+## Data Structures in Python
+
+### Dictionary
+Unordered collection of key-value pairs. Keys must be unique and immutable [47-49].
+
+```{python}
+dict = {'name':'William', 'age':25, 'city':'London'}
+print(dict["name"]) # Outputs: 'William'
+```
+

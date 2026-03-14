@@ -1,0 +1,11 @@
+{
+  "hash": "5677be7a949614c5ccb9524f83822b05",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Lab\"\nauthor: \"Jubilant J\"\ncode-fold: true\njupyter: python3\n---\n\n",
+    "supporting": [
+      "lab_files\\figure-pdf"
+    ],
+    "filters": []
+  }
+}

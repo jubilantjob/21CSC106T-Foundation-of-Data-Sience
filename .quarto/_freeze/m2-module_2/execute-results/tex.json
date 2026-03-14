@@ -1,0 +1,11 @@
+{
+  "hash": "2b2b307455e76843845e7b77287b9fb6",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Module 2\"\nauthor: \"Jubilant J\"\naffiliation: \"SRM-Trichy\"\ncode-fold: true\njupyter: python3\n---\n\n",
+    "supporting": [
+      "m2-module_2_files\\figure-pdf"
+    ],
+    "filters": []
+  }
+}

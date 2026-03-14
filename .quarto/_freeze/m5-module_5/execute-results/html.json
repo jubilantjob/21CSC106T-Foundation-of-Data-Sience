@@ -1,0 +1,12 @@
+{
+  "hash": "a5c430065f27221f1141d965b2be54c5",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Module-5\"\nauthor: \"Jubilant J\"\ncode-fold: true\njupyter: python3\n---\n\n",
+    "supporting": [
+      "m5-module_5_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

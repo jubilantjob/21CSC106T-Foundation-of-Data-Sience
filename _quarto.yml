@@ -1,0 +1,29 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "21CSC106T-Foundation of Data Sience"
+  author: "Jubilant J"
+  date: "01/05/2026"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - m2-module_2.qmd
+    - m3-module_3.qmd
+    - m4-module_4.qmd
+    - m5-module_5.qmd
+    - appendix_data.qmd
+    - lab.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+
+

@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "45292fa0"
+  },
+  "intro.qmd": {
+    "intro.html": "16b8c8da"
+  },
+  "summary.qmd": {
+    "summary.html": "a411d7eb"
+  },
+  "references.qmd": {
+    "references.html": "93848cda"
+  },
+  "m2-module_2.qmd": {
+    "m2-module_2.html": "4f696d7f"
+  },
+  "m3-module_3.qmd": {
+    "m3-module_3.html": "810e0ddb"
+  },
+  "m4-module_4.qmd": {
+    "m4-module_4.html": "4e72dc4e"
+  },
+  "m5-module_5.qmd": {
+    "m5-module_5.html": "2041439e"
+  },
+  "appendix_data.qmd": {
+    "appendix_data.html": "c03fc552"
+  },
+  "lab.qmd": {
+    "lab.html": "765eea54"
+  }
+}

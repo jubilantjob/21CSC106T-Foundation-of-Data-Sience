@@ -1,0 +1,122 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "21CSC106T-Foundation of Data Sience",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "1.0.1 Topics Covered\nAn Introduction to Data Analysis - Data Analysis - Knowledge domains of Data Analyst: Computer Science, Mathematics, and statistics - Machine Learning & AI, Professional fields of Application - Introduction to Data - Understanding the nature of Data - Data – Information; Information – Knowledge - Types of Data - Data Analysis Process - Quantitative Data Analysis - Qualitative Data Analysis - Python – The Programming Language - Python 2 and Python 3 - Python Package Index - IDEs for python - Scipy: Numpy- Pandas, Matplotlib.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "8  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "intro.html#an-introduction-to-data-analysis",
+    "href": "intro.html#an-introduction-to-data-analysis",
+    "title": "1  Introduction",
+    "section": "1.1 An Introduction to Data Analysis",
+    "text": "1.1 An Introduction to Data Analysis\nData analysis starts with identifying a problem that can be solved with data. Once the problem is identified, data is collected, cleaned, processed, and analyzed. The purpose of analyzing the data is to identify trends, patterns, and meaningful insights, with the ultimate goal of solving the original problem.\nThe following five-step framework helps to analyze the data :\n\nIdentify business questions\nCollect and store data\nClean and prepare data\nAnalyze data\nVisualize and communicate data.\n\n\n1.1.1 Data Analysis Process\nData analysis is schematized as a process chain consisting of the following sequence of stages:\n\nProblem definition: Data analysis always starts with a problem to be solved. Requires focusing the system, planning, and choosing an effective, cross-disciplinary team.\nData extraction: Obtaining the data to perform the analysis. Data selection is crucial.\nData preparation: Cleaning, normalizing, and transforming data into an optimized dataset. Handling invalid, ambiguous, or missing values [7].\nData exploration and visualization: Searching data graphically or statistically to find patterns, connections, and relationships. Includes summarizing, grouping, and identifying trends [7, 8].\nPredictive modelling: Creating a statistical model to predict results (Regression models for numeric data, Classification/Clustering models for descriptive/categorical data) [8, 9].\nModel validation/test: Validating the model built on the basis of starting data (e.g., using Cross Validation techniques) [9, 10].\nDeployment: The final step which aims to present the results. Involves documenting analysis results, decision deployment, risk analysis, and measuring the business impact [10, 11].",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#knowledge-domains-of-data-analyst",
+    "href": "intro.html#knowledge-domains-of-data-analyst",
+    "title": "1  Introduction",
+    "section": "1.2 Knowledge Domains of Data Analyst",
+    "text": "1.2 Knowledge Domains of Data Analyst\nData Science comprises three main subject areas [12, 13]:\n\nComputer Science and Programming: The study of computational tools like programming languages and software libraries.\nStatistics and Machine Learning: Forms the theoretical foundations of data science methods and algorithms.\nDomain Knowledge: The general discipline or field to which data science is applied (e.g., medicine, finance, biotech). It is required to interpret results properly [12, 13].",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#machine-learning-ai-professional-fields-of-application",
+    "href": "intro.html#machine-learning-ai-professional-fields-of-application",
+    "title": "1  Introduction",
+    "section": "1.3 Machine Learning & AI, Professional Fields of Application",
+    "text": "1.3 Machine Learning & AI, Professional Fields of Application\n\nImage Recognition: Cataloging and detecting objects, face detection, and pattern recognition [14, 15].\nSpeech Recognition: Representing speech signals with numbers (e.g., Amazon’s Alexa, Apple’s Siri) [15].\nPredict Traffic Patterns: Analyzing present traffic data to generate predictions and identify the fastest route [15, 16].\nE-commerce Product Recommendations: Tracking customer behavior to recommend products [16].\nSelf-Driving Cars: Utilizing unsupervised learning algorithms via cameras and sensors [17].\nCatching Email Spam: Filtering incoming emails using ML algorithms [17, 18].\nCatching Malware: Analyzing suspicious activities in environments like Android [18].\nVirtual Personal Assistant: Accessing relevant information via text or voice using Natural Language Processing [19].\nOnline Fraud Recognition: Examining user profiles for unusual patterns [19, 20].\nStock Market and Day Trading: Automating investment activities using algorithmic trading [20].",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#quantitative-and-qualitative-data-analysis",
+    "href": "intro.html#quantitative-and-qualitative-data-analysis",
+    "title": "1  Introduction",
+    "section": "1.4 Quantitative and Qualitative Data Analysis",
+    "text": "1.4 Quantitative and Qualitative Data Analysis\n\nQuantitative: Analysed data (Numerical or Categorical), allows mathematical processing, and provides more objective conclusions [21].\nQualitative: Values expressed through descriptions in Natural Language (text, visual, or audio data), leading to subjective interpretations [21].\n\n\n1.4.1 Open Data\nFreely available data sources on the internet supporting the growing demand for data (e.g., DataHub, WHO, Data.gov, EU Open Data Portal, AWS public datasets, Google Trends) [21, 22].",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#understanding-the-nature-of-data",
+    "href": "intro.html#understanding-the-nature-of-data",
+    "title": "1  Introduction",
+    "section": "1.5 Understanding the Nature of Data",
+    "text": "1.5 Understanding the Nature of Data\n\nData (Raw): Raw alphanumeric values obtained through different acquisition methods [23].\nInformation (Processed): Created when data is processed, organized, or structured to provide context and meaning [23].\nKnowledge (Actionable): Unique to each individual; it is the accumulation of past experience and insight that shapes how we interpret information to make decisions [23].\n\n\n1.5.1 Types of Data\n\nCategorical or Qualitative Data [24]\n\nNominal Data: Represents discrete units, cannot be ordered or measured (e.g., Gender, Nationality, Hair color). Uses one-hot encoding [24, 25].\nOrdinal Data: Indicates an ordered or graded relationship (e.g., Ranks, Opinion scales, Socioeconomic status) [25, 26].\n\nNumerical or Quantitative Data [24]\n\nDiscrete Data: Can take only finite discrete values, counted in whole numbers (e.g., Number of students) [26, 27].\nContinuous Data: Data that can be calculated with an infinite number of probable values (e.g., Temperature range) [27].",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#python-and-data-analysis",
+    "href": "intro.html#python-and-data-analysis",
+    "title": "1  Introduction",
+    "section": "1.6 Python and Data Analysis",
+    "text": "1.6 Python and Data Analysis\nPython is widely used in scientific circles because of its large number of libraries for analysis and data manipulation [27]. * Python Package Index (PyPI): A repository of software for the Python programming language helping you find and install packages (using pip) [28, 29]. * Characteristics: Interpreted, Portable, Object-oriented, Interactive, Interfaced, Open source [30].\n\n1.6.1 Interpreters vs Compilers\n\nCompiler: Takes entire program as input, generates intermediate object code, executes faster, requires more memory. (e.g., C compiler) [31, 32].\nInterpreter: Takes single instruction as input, generates no object code, is slower in execution, and uses less memory. Errors are displayed line by line. (e.g., Python) [31, 32].\n\n\n\n1.6.2 Python Implementations\n\nCython: Translates Python code into C [32].\nJython: An implementation of Python built and compiled in Java [33].\nIronPython: Developed in C# (for Windows) [32].\nPyPy: A JIT (just-in-time) compiler that converts Python directly to machine code at runtime [33].",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#python-basics",
+    "href": "intro.html#python-basics",
+    "title": "1  Introduction",
+    "section": "1.7 Python Basics",
+    "text": "1.7 Python Basics\n\nComments: Used to mark non-executable code. Single-line (#) and Multi-line Docstrings (''' or \"\"\") [34, 35].\nIdentifiers: Names used for variables, functions, or classes. Case-sensitive. Cannot start with a digit or be a keyword. Allowed special symbol is underscore _ [36-38].\nKeywords: Reserved words with special meaning (e.g., False, class, finally, is, return). Python 3.5 has 33 keywords [39].\nVariables: Reserved memory locations. No explicit declaration needed; created upon assignment using the = operator [40, 41].\n\nChained Assignment: a = b = c = 10 [42]\nMultiple Assignment: value1, value2 = 1, 2.5 [43]\n\nExpressions: A combination of values, variables, and operators [44].\nAugmented Assignment: Shorthand operators like +=, -=, *=, /=, %= (e.g., a += b is equivalent to a = a + b) [45, 46].",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#data-structures-in-python",
+    "href": "intro.html#data-structures-in-python",
+    "title": "1  Introduction",
+    "section": "1.8 Data Structures in Python",
+    "text": "1.8 Data Structures in Python\n\n1.8.1 Dictionary\nUnordered collection of key-value pairs. Keys must be unique and immutable [47-49].\n\ndict = {'name':'William', 'age':25, 'city':'London'}\nprint(dict[\"name\"]) # Outputs: 'William'\n\nWilliam",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "hash": "5b77a361de43aaffc590e50444bdb283",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Module-3\"\nauthor: \"Jubilant J\"\ncode-fold: true\njupyter: python3\n---\n\n",
+    "supporting": [
+      "m3-module_3_files\\figure-pdf"
+    ],
+    "filters": []
+  }
+}

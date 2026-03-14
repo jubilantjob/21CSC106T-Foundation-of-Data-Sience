@@ -1,0 +1,11 @@
+{
+  "hash": "f85340c81aa0063ad8994af205a7a6b4",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Appendix\"\nauthor: \"Jubilant J\"\ncode-fold: true\njupyter: python3\n---\n\n",
+    "supporting": [
+      "appendix_data_files\\figure-pdf"
+    ],
+    "filters": []
+  }
+}
