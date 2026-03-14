@@ -14,7 +14,7 @@
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "1.0.1 Topics Covered\nAn Introduction to Data Analysis - Data Analysis - Knowledge domains of Data Analyst: Computer Science, Mathematics, and statistics - Machine Learning & AI, Professional fields of Application - Introduction to Data - Understanding the nature of Data - Data – Information; Information – Knowledge - Types of Data - Data Analysis Process - Quantitative Data Analysis - Qualitative Data Analysis - Python – The Programming Language - Python 2 and Python 3 - Python Package Index - IDEs for python - Scipy: Numpy- Pandas, Matplotlib.",
+    "text": "1.0.1 Topics Covered\nAn Introduction to Data Analysis - Data Analysis - Knowledge domains of Data Analyst: Computer Science, Mathematics, and statistics - Machine Learning & AI, Professional fields of Application - Introduction to Data - Understanding the nature of Data - Data – Information; Information – Knowledge - Types of Data - Data Analysis Process - Quantitative Data Analysis - Qualitative Data Analysis - Python – The Programming Language - Python 2 and Python 3 - Python Package Index - IDEs for python - Scipy: Numpy- Pandas, Matplotlib Nguyen (2025).",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -94,7 +94,7 @@
     "href": "intro.html#data-structures-in-python",
     "title": "1  Introduction",
     "section": "1.8 Data Structures in Python",
-    "text": "1.8 Data Structures in Python\n\n1.8.1 Dictionary\nUnordered collection of key-value pairs. Keys must be unique and immutable [47-49].\n\ndict = {'name':'William', 'age':25, 'city':'London'}\nprint(dict[\"name\"]) # Outputs: 'William'\n\nWilliam",
+    "text": "1.8 Data Structures in Python\n\n1.8.1 Dictionary\nUnordered collection of key-value pairs. Keys must be unique and immutable [47-49].\n\ndict = {'name':'William', 'age':25, 'city':'London'}\nprint(dict[\"name\"]) # Outputs: 'William'\n\nWilliam\n\n\n\n\n\n\nNguyen, Mike. 2025. Foundations of Data Analysis. Vol. 1. Springer.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -107,6 +107,16 @@
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Nguyen, Mike. 2025. Foundations of Data Analysis. Vol. 1.\nSpringer.",
+    "crumbs": [
+      "References"
     ]
   }
 ]
